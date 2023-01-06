@@ -12,7 +12,7 @@ public static void main(String[] args) throws InterruptedException
 		driver.findElement(By.cssSelector("[placeholder='Type for hints...']")).sendKeys("rahul");
 		driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]")).sendKeys("001");
 		driver.findElement(By.xpath("(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[2]")).click();
-	  Thread.sleep(2000);
+	        Thread.sleep(2000);
 		driver.findElement(By.xpath("//div[text()='Current and Past Employees']")).click();
 		
 	}
